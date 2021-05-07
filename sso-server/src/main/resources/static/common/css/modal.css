@@ -1,0 +1,224 @@
+/*삭제 팝업*/
+.delete_modal .modal-body {
+  padding: 22px 0px 28px 20px;
+}
+.delete_modal .modal-content {
+  width: 500px;
+  height: 238px;
+  background-color: #151e38;
+  border-radius: 4px;
+  margin: 426px 0px 0px 51px;
+  letter-spacing: 0.5px;
+}
+.delete_modal .modal-title {
+  font-family: "NotoSansCJKM";
+  font-size: 17px;
+  color: #ebedf5;
+  width: 400px;
+  letter-spacing: -0.025em;
+}
+.delete_modal .modal-header {
+  padding: 23px 0px 22px 20px;
+  border-bottom: 1px solid #243159;
+}
+.modal-title span {
+  color: #ee3e28;
+}
+.delete_modal .modal-header .close {
+  margin: 1px 20px 0px 0px;
+  color: #8894ba;
+}
+.delete_modal .close:hover {
+  color: #6e7a9c;
+}
+.delete_modal .modal_txt {
+  margin: 0px 0px 10px 0px;
+  width: 383px;
+  height: 13px;
+  font-family: "NotoSansCJKM";
+  font-size: 13px;
+  color: #abb3d1;
+  line-height: 0.9;
+}
+strong {
+  font-family: "NotoSansCJKR";
+  color: #f5f6fa;
+}
+.delete_modal .modal-footer {
+  border-top: 1px solid #243159;
+  padding: 16px 16px 16px 0px;
+}
+
+/*수정 모달*/
+.edit_modal .modal-content {
+  width: 850px;
+  height: 585px;
+  background-color: #151e38;
+  border-radius: 4px;
+  margin: 246px 0px 0px -121px;
+  letter-spacing: 0.5px;
+}
+.edit_modal .modal-title,
+.create_modal .modal-title {
+  font-family: "NotoSansCJKM";
+  font-size: 21px;
+  color: #ebedf5;
+  letter-spacing: -0.025em;
+}
+.edit_modal .modal-header {
+  padding: 35px 0px 24px 36px;
+  border-bottom: 1px solid #243159;
+  height: 86px;
+}
+.edit_modal .modal-header .close,
+.create_modal .modal-header .close {
+  margin: 5px 35px 0px 0px;
+  color: #8894ba;
+}
+.edit_modal .modal-body {
+  padding: 48px 0px 48px 36px;
+  height: 415px;
+}
+.edit_modal .modal-footer {
+  border-top: 1px solid #243159;
+  padding: 20px 33px 20px 0px;
+  height: 78px;
+}
+
+/*등록 모달*/
+.create_modal .modal-content {
+  width: 850px;
+  height: 535px;
+  background-color: #151e38;
+  border-radius: 4px;
+  margin: 274px 0px 0px -121px;
+  letter-spacing: 0.5px;
+}
+.create_modal .modal-header {
+  padding: 35px 0px 24px 36px;
+  border-bottom: 1px solid #243159;
+  height: 88px;
+}
+.create_modal .modal-footer {
+  border-top: 1px solid #243159;
+  padding: 22px 33px 22px 0px;
+}
+
+.create_modal .modal-body {
+  padding: 48px 0px 48px 36px;
+  height: 363px;
+}
+
+/*모달팝업 안의 테이블 스타일*/
+.table_popup tr {
+  height: 56px;
+}
+.table_popup td {
+  padding: 0 !important;
+}
+.table_popup tr td:nth-child(1) {
+  width: 146px;
+  font-family: "NotoSansCJKM";
+  font-size: 15px;
+  color: #abb3d1;
+  letter-spacing: -0.025em;
+}
+.table_popup .pop_middle {
+  width: 634px;
+  color: #f5f6fa;
+  font-size: 13px;
+  padding: 0px 0px 0px 24px;
+  letter-spacing: -0.025em;
+}
+.table_popup .middle_box {
+  width: 634px;
+}
+.table_popup .select_area {
+  width: 634px;
+}
+.search_img_area {
+  width: 42px;
+  height: 38px;
+  background: #202e4f;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+.search_img_bg {
+  width: 38px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: #2f3e61;
+  margin-top: 4px;
+  padding: 3px 3px 3px 9px;
+}
+.modal_search_area {
+  width: 1140px;
+  height: 94px;
+  padding: 28px 36px 28px 35px;
+  background-color: #11192e;
+  border-bottom: 1px solid #293866;
+}
+/*모달 안의 버튼 스타일*/
+.btn-default,
+.btn-default:hover {
+  font-family: "NotoSansCJKM";
+  width: 73px;
+  height: 38px;
+  font-size: 15px;
+  color: #ffffff;
+  border-color: transparent;
+}
+.cancel {
+  background-color: #2f3e61;
+}
+.cancel:hover {
+  background-color: #253252;
+}
+.delete {
+  background-color: #ee3d28;
+}
+.delete:hover {
+  background-color: #d9341e;
+}
+.confirm {
+  background-color: #ee3e28;
+}
+.confirm:hover {
+  background-color: #d9341e;
+}
+.edit {
+  background-color: #294094;
+}
+.edit:hover {
+  background-color: #203580;
+}
+.end {
+  background-color: #2f3e61;
+}
+.end:hover {
+  background-color: #253252;
+}
+.save,
+.enroll {
+  background-color: #ee3e28;
+}
+.save:hover,
+.enroll:hover {
+  background-color: #d9341e;
+}
+.modal_search {
+  width: 105px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #294094;
+  font-family: "NotoSansCJKM";
+  font-size: 17px;
+  line-height: 1.65;
+  letter-spacing: -0.43px;
+  text-align: center;
+  color: #ffffff;
+}
+.modal_search:hover {
+  background-color: #203580;
+}

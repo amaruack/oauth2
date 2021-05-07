@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url('../font/NotoSansKR-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansKM';
+    src: url('../font/NotoSansKR-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansR';
+    src: url('../font/NotoSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansM';
+    src: url('../font/NotoSans-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansCJKR';
+    src: url('../font/NotoSansCJKkr-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansCJKM';
+    src: url('../font/NotoSansCJKkr-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansCJKL';
+    src: url('../font/NotoSansCJKkr-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansCJKB';
+    src: url('../font/NotoSansCJKkrB.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansBL';
+    src: url('../font/NotoSans-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansSEB';
+    src: url('../font/NotoSans-SemiCondensedExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansSB';
+    src: url('../font/NotoSans-SemiCondensedSemiBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansSM';
+    src: url('../font/NotoSans-SemiCondensedMedium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansB';
+    src: url('../font/NotoSans-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NotoSansEB';
+    src: url('../font/NotoSans-ExtraBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}

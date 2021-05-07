@@ -1,0 +1,56 @@
+
+create table oauth.oauth_client_details (
+  client_id character varying(256),
+  resource_ids character varying(256),
+  client_secret character varying(256),
+  scope character varying(256),
+  authorized_grant_types character varying(256),
+  web_server_redirect_uri character varying(256),
+  logout_uri character varying(256),
+  base_uri character varying(256),
+  authorities character varying(256),
+  access_token_validity integer,
+  refresh_token_validity integer,
+  additional_information character varying(4096),
+  autoapprove character varying(256),
+  CONSTRAINT oauth_client_details_pkey PRIMARY KEY (client_id)
+);
+
+--create table oauth.oauth_client_token (
+--  token_id character varying(256),
+--  token bytea,
+--  authentication_id character varying(256),
+--  user_name character varying(256),
+--  client_id character varying(256),
+--  CONSTRAINT oauth_client_token_pkey PRIMARY KEY (authentication_id)
+--);
+
+create table oauth.oauth_access_token (
+  token_id character varying(256),
+  token bytea,
+  authentication_id character varying(256),
+  user_name character varying(256),
+  client_id character varying(256),
+  authentication bytea,
+  refresh_token character varying(256),
+  CONSTRAINT oauth_access_token_pkey PRIMARY KEY (authentication_id)
+);
+
+create table oauth.oauth_refresh_token (
+  token_id character varying(256),
+  token bytea,
+  authentication bytea
+);
+
+create table oauth.oauth_code (
+  code character varying(256), authentication bytea
+);
+
+create table oauth.oauth_approvals (
+	userId character varying(256),
+	clientId character varying(256),
+	scope character varying(256),
+	status character varying(10),
+	expiresAt timestamp without time zone,
+	lastModifiedAt timestamp without time zone
+);

@@ -1,0 +1,197 @@
+.iotWrap{
+    background:linear-gradient(to right,#06112d,#091539) fixed;
+}
+.bgAreaR{
+  position: absolute;
+  background-image: url('../../img/login/bg_01.png');
+  background-position: bottom right;
+  background-size:auto;
+  padding-top:264px;
+  padding-left:1159px;
+  width: 755px;
+  height: 816px;
+  background-repeat: no-repeat;
+}
+.bgAreaL{
+  position: absolute;
+  margin-top:264px;
+  margin-left:642px;
+  background-image: url('../../img/login/bg_02.png');
+  padding-top:264px;
+  padding-left:670px;
+  width: 931px;
+  height: 816px;
+  background-repeat: no-repeat;
+}
+
+
+/*而⑦뀗痢� �쁺�뿭 �떆�옉*/
+.iotWrap > .loginForm{
+    position: absolute;
+    top:193px;
+    left:140px;
+    width:900px;
+    height: 700px;
+}
+
+.iot_tit{
+    font-family: 'NotoSansM';
+}
+.iot_tit > .main_tit{
+    font-size: 75px;
+}
+
+.iot_tit > .sub_tit{
+    font-family: 'NotoSansR';
+    font-size: 27px;
+}
+.id_pw{
+    width: 396px;
+    height: 64px;
+    border-radius:50px;
+}
+.area_login{
+    width: 396px;
+    height: 64px;
+    background-color: #E8241C;
+    border-radius:50px;
+    margin-bottom: 38px;
+}
+.area_login:hover{
+    background-color: #A1140E;
+}
+
+input.inputTxt::placeholder {
+    font-size: 20px;
+    font-family: 'NotoSansM';
+    color:#6C707D !important;
+}
+input:.inputTxtfocus::-webkit-input-placeholder{
+    /* WebKit browsers */
+    color:#6C707D !important;
+}
+input.inputTxt:focus:-moz-placeholder{
+    /* Mozilla Firefox 4 to 18 */
+    color:#6C707D!important;
+}
+input.inputTxt:focus::-moz-placeholder{
+    /* Mozilla Firefox 19+ */
+    color:#6C707D!important;
+}
+input.inputTxt:focus:-ms-input-placeholder{
+    /* Internet Explorer 10+ */
+    color:#6C707D !important;
+}
+.inputTxt{
+    font-size: 20px;
+    font-family: 'NotoSansM';
+    background: none;
+    border: none;
+    text-align: center;
+    margin:18px 63px;
+    color: #6C707D;
+}
+.btn_login{
+    width: 270px;
+    font-size: 20px;
+    font-family: 'NotoSansM';
+    background: none;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+    padding:21px 63px;
+    cursor: pointer;
+}
+.sub_menu_area{
+    display: inline-block;
+    margin-left: 26px;
+    width: 365px;
+    height: 20px;
+    border-radius:50px;
+}
+.sub_func{
+    float:left;
+    font-family: 'NotoSansKM';
+    font-size: 15px;
+    color: #6C707D;
+}
+.sub_func:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.devide_bar{
+    display: block;
+    height: 14px;
+    border-left: 1px solid #707070;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+.iot_hr{
+    size: 10px;
+    margin-top: 184px;
+    margin-right: 256px;
+    border:0;
+    height: 2px;
+}
+
+/*colors*/
+.iotWrap .btnBlue{
+    background-color: #122147;
+}
+.iotWrap .lineBlue{
+    background: #243050;
+}
+.iotWrap .tMiddleWhite{
+    color: #E9E9E9;
+}
+.iotWrap .tGray{
+    color: #6C707D;
+}
+
+
+/*margin*/
+.iotWrap .mt10px{
+margin-top: -10px;
+}
+.iotWrap .mb15px{
+margin-bottom:15px;
+}
+.iotWrap .mb28px{
+ margin-bottom:28px;
+}
+.iotWrap .mb80px{
+ margin-bottom:80px;
+}
+.iotWrap .mb40px{
+ margin-bottom:40px;
+}
+.iotWrap .mb21px{
+ margin-bottom:21px;
+}
+.iotWrap .mb43px{
+ margin-bottom:43px;
+}
+
+.iotWrap .h40px{
+ 	height: 40px;
+}
+
+/*width*/
+.iotWrap .w81px{
+    width:81px;
+}
+.iotWrap .w80px{
+    width:87px;
+}
+.iotWrap .w80px{
+    width:60px;
+}
+.iotWrap .w153px{
+    width:153px;
+}
+.iotWrap .w270px{
+    width: 270px;
+}
+.iotWrap .w396px{
+    width: 270px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" th:href="@{/common/css/style.css}"
+	href="../common/css/style.css" />
+<link rel="stylesheet" th:href="@{/css/login/login.css}"
+	href="css/login.css" />
+</head>
+<body>
+	<section class="iotWrap">
+		<div class="bgAreaR"></div>
+		<div class="bgAreaL"></div>
+
+		<div class="loginForm">
+			<div class="iot_tit">
+				<div class="main_tit mt10px mb15px tMiddleWhite">IoT</div>
+				<div class="main_tit mb28px tMiddleWhite">Smart Center
+					Platform</div>
+				<div class="sub_tit mb40px tGray">Sensor and Field device
+					connection module</div>
+			</div>
+			
+			<div class="h40px">
+				<div id="errors"  th:if="${(param.error != null)}">
+		        	<font color="red">
+				   	아이디 또는 비밀번호를 다시 확인하세요.
+				   	<br/>
+					등록되지 않은 아이디이거나, 아이디 또는 비밀번호를 잘못 입력하셨습니다.
+					</font>
+				</div>
+			</div>
+			
+			<div class="login">
+				<form name="login_frm" id="login_frm" class="form-signin" th:action="@{/login}" method="post">
+					<div class="id_pw mb21px btnBlue">
+						<input type="text" class="inputTxt w270px mWhite" id="username" name="username"  placeholder="User Id" required="required"/>
+					</div>
+					<div class="id_pw mb43px btnBlue">
+						<input type="password" class="inputTxt w270px mWhite" id="password" name="password" placeholder="Password" required="required"/>
+					</div>
+					<div class="area_login">
+						<div class="btn_login" id="btn_login">Log In</div>
+					</div>
+					<div class="sub_menu_area">
+						<div class="sub_func w81px">아이디 찾기</div>
+						<div class="devide_bar ftL"></div>
+						<div class="sub_func w87px">비밀번호 찾기</div>
+						<div class="devide_bar ftL"></div>
+						<div class="sub_func w60px">회원가입</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<hr class="iot_hr w153px lineBlue ftR" />
+	</section>
+
+	<script type="text/javascript"
+		src="/webjars/jquery/3.2.0/jquery.min.js"></script>
+	<script type="text/javascript"
+		src="/webjars/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('#username').focus();
+
+			$('#password').keypress(function(event) {
+				if (event.which == 13) {
+					event.preventDefault();
+					login();
+					return false;
+				}
+			});
+			
+			$("#btn_login").click(function() {
+			  $("#login_frm").submit();
+			});
+		});
+		
+		//
+		//function login() {
+		//	document.forms['login_frm'].submit();
+		//}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+server:
+  port: 8080
+  session:
+    cookie:
+      name: RINOSESSIONID
+
+#spring:
+#  datasource:
+#    url: jdbc:h2:tcp://localhost/~/test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
+      
+#spring.h2.console:
+#  enabled: true
+#  path: /h2-console
+#  settings:
+#    trace: true
+#    web-allow-others: true
+      
+#spring:
+#  jpa:
+##    database: postgresql
+##    database-platform: postgresql
+#    hibernate:
+#      ddl-auto: none
+#    show-sql: true
+#    properties:
+#      hibernate.format_sql: true
+#      hibernate.dialect : org.hibernate.dialect.PostgreSQLDialect
+#      hibernate.default_schema : oauth
+##  profiles: init
+#  datasource:
+##   data: classpath:data-h2.sql # 시작할때 실행시킬 script
+#    url: jdbc:postgresql://10.10.0.153:5432/OAUTH2?currentSchema=oauth
+#    username: RINO
+#    password: rinoadmin
+#    driver-class-name: org.postgresql.Driver
+#    platform: postgresql
+##    schema:
+
+#logging:
+#  file: ./log/oauth.log
+
+#logging.level:
+#  root: info
+#  org.springframework:
+#    web: warn
+#    security: debug
+#    boot: debug
+#  org.hibernate: debug
+##    SQL: debug
+#  com.nextree: trace
